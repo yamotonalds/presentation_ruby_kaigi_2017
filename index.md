@@ -126,6 +126,8 @@ Schema記述を楽にする仕組みを作ることでメリットの享受を�
 
 RESTは思想であって仕様ではないのでブレたり例外があったり、難しい
 
+. . .
+
 Schema First Development
 
 ## Gemification for Ruby 2.5/3.0
@@ -286,7 +288,7 @@ JITの前に、最適化しやすいようにStack型のVM命令をRTL型のVM�
 
 . . .
 
-それだけで27%くらい速くなった
+それだけで27%くらい速くなるものもあった
 
 ##
 
@@ -347,17 +349,26 @@ Optcarrot（Rubyで書かれたファミコンエミュレータ）がメモリ�
 - inline化がまだで、それが一番重要
 - まだ1年はかかる
 
+[https://vmakarov.fedorapeople.org/VMakarov-RubyKaigi2017.pdf](https://vmakarov.fedorapeople.org/VMakarov-RubyKaigi2017.pdf)
 [https://github.com/vnmakarov/ruby](https://github.com/vnmakarov/ruby)
 
 #
 
 ## 感想
 
+- パフォーマンスや型の話が多かった？
+    - Annotationコメントがっつりとか書きたくないので型の動向は気になる
+    - GCの改善やJITは期待
+- Guildの話は無かった
+    - どうなるんだろう？ 🤔 
+
+##
+
 - お祭り感がある
-- テクい話が聞けて楽しい
-  - 紹介できなかったけど他にもおもしろいセッションあった
-  - 社交性がある人は有名な人と直接話しできる
-- スポンサーブースも楽しい
+- テクい話が聞けてたーのしー
+    - GCとかJITの話聞いててたーのしー
+    - WebAPIとか普段使いそうなものの話もたーのしー
+- スポンサーブースもたーのしー
 
 
 ## 次回のRubyKaigi
